@@ -19,4 +19,5 @@ b="deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://ap
 echo $b | sudo tee /etc/apt/sources.list.d/kubernetes.list
 sudo apt update -y
 sudo apt install -y kubectl
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
