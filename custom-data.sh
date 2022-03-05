@@ -1,4 +1,5 @@
 #!/bin/bash
+#Apt commands
 sudo apt update -y 
 sudo apt upgrade -y
 #Azure CLI
