@@ -1,7 +1,4 @@
 #!/bin/bash
-#Apt commands
-sudo apt update -y 
-sudo apt upgrade -y
 #Azure CLI
 sudo apt install ca-certificates curl apt-transport-https lsb-release gnupg -y
 curl -sL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
